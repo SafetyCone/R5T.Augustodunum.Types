@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Augustodunum.Types.Construction", "R5T.Augustodunum.Types.Construction\R5T.Augustodunum.Types.Construction.csproj", "{1981FD7A-D1DE-4FA5-9390-DC1CFBD8688E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Augustodunum.Types.Construction", "R5T.Augustodunum.Types.Construction\R5T.Augustodunum.Types.Construction.csproj", "{1981FD7A-D1DE-4FA5-9390-DC1CFBD8688E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Augustodunum.Types", "R5T.Augustodunum.Types\R5T.Augustodunum.Types.csproj", "{F4338F25-0E21-458A-9A0A-81F0BF7A14A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Augustodunum.Types", "R5T.Augustodunum.Types\R5T.Augustodunum.Types.csproj", "{F4338F25-0E21-458A-9A0A-81F0BF7A14A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Augustodunum.Types.Testing", "R5T.Augustodunum.Types.Testing\R5T.Augustodunum.Types.Testing.csproj", "{B301054D-9C7D-4E83-B919-372D782BB7F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Augustodunum.Types.Testing", "R5T.Augustodunum.Types.Testing\R5T.Augustodunum.Types.Testing.csproj", "{B301054D-9C7D-4E83-B919-372D782BB7F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C1D34151-62A1-4466-A1EA-5C4E5E280A35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1981FD7A-D1DE-4FA5-9390-DC1CFBD8688E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{B301054D-9C7D-4E83-B919-372D782BB7F1}.Release|x64.Build.0 = Release|Any CPU
 		{B301054D-9C7D-4E83-B919-372D782BB7F1}.Release|x86.ActiveCfg = Release|Any CPU
 		{B301054D-9C7D-4E83-B919-372D782BB7F1}.Release|x86.Build.0 = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|x64.Build.0 = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|x64.ActiveCfg = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|x64.Build.0 = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EE3A360-F4F2-4F07-92C8-4C760560DF5A} = {C1D34151-62A1-4466-A1EA-5C4E5E280A35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {363FE99D-67C4-4CB1-A371-AAD242DB2581}
 	EndGlobalSection
 EndGlobal
