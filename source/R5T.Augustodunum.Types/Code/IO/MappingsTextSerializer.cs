@@ -28,7 +28,7 @@ namespace R5T.Augustodunum.Types.IO
         public IEnumerable<RepositoryUrlToLocalRelativeDirectoryPathMapping> Deserialize(TextReader reader)
         {
             var mappings = new List<RepositoryUrlToLocalRelativeDirectoryPathMapping>();
-            while (reader.ReadLineIsNotEnd(out var line))
+            while (reader.ReadLineIsNotEndSynchronous(out var line))
             {
                 var tokens = line.Split(MappingsTextSerializer.TokenSeparator);
 
